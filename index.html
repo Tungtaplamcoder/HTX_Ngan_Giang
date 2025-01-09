@@ -1,56 +1,173 @@
-<!DOCTYPE html>
-<!-- Created By CodingNepal -->
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Le Khanh Tung</title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-   </head>
-   <body>
-      <div class="container">
-         <div class="wrapper">
-            <a href="#">
-            <img src="images/profile.jpg" alt="">
-            </a>
-            <div class="title">
-               Lê Khánh Tùng
-            </div>
-            <div class="place">
-               Hà Nội, Việt Nam
-            </div>
-         </div>
-         <div class="content">
-            <p>
-              Nhà thiết kế giao diện người dùng <br>và nhà phát triển front-end
-            </p>
-            <div class="buttons">
-               <div class="btn">
-                  <a href="https://www.facebook.com/profile.php?id=100085638253371">
-                    <button>Message</button>
-                  </a>
-               </div>
-               <div class="btn">
-                  <a href="https://www.facebook.com/profile.php?id=100085638253371">
-                    <button>Following</button>
-                  </a>
-               </div>
-            </div>
-         </div>
-         <div class="icons">
-            <li><a href="https://www.facebook.com/profile.php?id=100085638253371"><span class="fab fa-facebook-f"></span></a></li>
-            <li><a href="https://discord.gg/B3jTNj6FUw"><span class="fab fa-discord"></span></a></li>
-            <li><a href="https://www.instagram.com/_tungdabiban_/"><span class="fab fa-instagram"></span></a></li>
-            <li><a href="https://github.com/Tungtaplamcoder"><span class="fab fa-github"></span></a></li>
-         </div>
+<html>
+ <head>
+  <title>
+   HTX Thực phẩm sạch Ngân Giang
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gradient-to-r from-[#36D1DC] to-[#5B86E5]">
+  <div class="relative container mx-auto mt-10 p-6 bg-white bg-opacity-60 shadow-lg rounded-lg max-w-lg mb-10">
+   <div class="profile-header text-center">
+    <img alt="Profile picture of a person with a neutral expression, short hair, and wearing a plain shirt" class="mx-auto rounded-full border-4 border-indigo-500" height="150" src="circle.png" width="150"/>
+    <h1 class="text-2xl font-bold mt-4">
+     HTX Thực phẩm sạch Ngân Giang
+    </h1>
+    <p class="text-gray-600 mt-2 text-xl">
+     Tinh chất siêu nano curcumin và sản phẩm sử dụng tinh chất curcumin
+    </p>
+    <div class="flex justify-center mt-4 space-x-4">
+     <div class="flex flex-col items-center">
+      <div class="flex space-x-4">
+       <a class="w-12 h-12 bg-indigo-500 text-white rounded-full flex items-center justify-center" href="tel:0912199158">
+        <i class="fas fa-phone">
+        </i>
+       </a>
+       <a class="w-12 h-12 bg-indigo-500 text-white rounded-full flex items-center justify-center" href="mailto:htxthucphamsachngangiang@gmail.com">
+        <i class="fas fa-envelope">
+        </i>
+       </a>
       </div>
-      <script>
-         const img = document.querySelector("img");
-         const icons = document.querySelector(".icons");
-         img.onclick = function(){
-           this.classList.toggle("active");
-           icons.classList.toggle("active");
-         }
-      </script>
-   </body>
+      <p class="text-gray-700 mt-2">
+       Tinh chất siêu nano curcumin và sản phẩm sử dụng tinh chất curcumin: Kẹo lạc curcumin, Ngũ cốc curcumin, Bánh cốm curcumin, Kẹo hạt mix 9 vị curcumin.
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="contact-info mt-6">
+    <ul class="space-y-4">
+     <li class="flex items-center p-4 bg-white rounded-lg shadow-md">
+      <i class="fas fa-phone text-indigo-500 mr-3">
+      </i>
+      <span class="text-gray-700">
+       0912199158
+      </span>
+     </li>
+     <li class="flex items-center p-4 bg-white rounded-lg shadow-md">
+      <i class="fas fa-phone text-indigo-500 mr-3">
+      </i>
+      <span class="text-gray-700">
+       0325217127
+      </span>
+     </li>
+     <li class="flex items-center p-4 bg-white rounded-lg shadow-md">
+      <i class="fas fa-envelope text-indigo-500 mr-3">
+      </i>
+      <span class="text-gray-700">
+       htxthucphamsachngangiang@gmail.com
+      </span>
+     </li>
+    </ul>
+   </div>
+   <div class="find-me-on mt-10">
+    <h2 class="text-xl font-semibold mb-4">
+     Tìm tôi trên
+    </h2>
+    <ul class="space-y-4">
+     <li class="flex flex-col items-start p-4 bg-white rounded-lg shadow-md">
+      <a class="flex items-center justify-between w-full" href="https://www.facebook.com/profile.php?id=61571454061151" target="_blank">
+       <div class="flex items-center">
+        <i class="fab fa-facebook text-indigo-500 mr-3 text-4xl">
+        </i>
+        <span class="text-gray-700 font-bold text-lg">
+         Facebook
+        </span>
+       </div>
+       <i class="fas fa-arrow-right text-indigo-500 text-xl">
+       </i>
+      </a>
+      <p class="text-gray-600 mt-2">
+       Hãy lựa chọn sản phẩm thơm ngon bổ dưỡng và tốt cho hệ tiêu quá của bạn.
+      </p>
+     </li>
+     <li class="flex flex-col items-start p-4 bg-white rounded-lg shadow-md">
+      <a class="flex items-center justify-between w-full" href="https://youtube.com" target="_blank">
+       <div class="flex items-center">
+        <i class="fab fa-youtube text-indigo-500 mr-3 text-4xl">
+        </i>
+        <span class="text-gray-700 font-bold text-lg">
+         YouTube
+        </span>
+       </div>
+       <i class="fas fa-arrow-right text-indigo-500 text-xl">
+       </i>
+      </a>
+      <p class="text-gray-600 mt-2">
+       Xem các video hướng dẫn và giới thiệu sản phẩm của chúng tôi.
+      </p>
+     </li>
+    </ul>
+   </div>
+   <div class="product-gallery mt-10">
+    <h2 class="text-xl font-semibold mb-4">
+     Sản phẩm của chúng tôi
+    </h2>
+    <div class="col-span-1 sm:col-span-2 bg-white rounded-lg shadow-md p-4 mb-4">
+     <img alt="Large image placeholder with a 3:4 aspect ratio" class="w-full h-auto object-cover rounded-lg" height="800" src="nghe_bottle.jpg" width="600"/>
+     <h3 class="text-lg font-semibold mt-2">
+      Lọ curcumin
+     </h3>
+     <p class="text-gray-600 mt-1">
+      Một loại curcumin, tốt cho sức khỏe.
+     </p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+     <div class="bg-white rounded-lg shadow-md p-4">
+      <img alt="Image of Kẹo lạc curcumin, a type of candy made with curcumin" class="w-full h-40 object-cover rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/RSg9bIJe9W17XqiuP7KqpTz3A6JReY92qJfXgnMhVUXB90GoA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold mt-2">
+       Kẹo lạc curcumin
+      </h3>
+      <p class="text-gray-600 mt-1">
+       Một loại kẹo làm từ curcumin, tốt cho sức khỏe.
+      </p>
+     </div>
+     <div class="bg-white rounded-lg shadow-md p-4">
+      <img alt="Image of Ngũ cốc curcumin, a type of cereal made with curcumin" class="w-full h-40 object-cover rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/GG3BR8lItnIuPZ9J6V2cJgN3WaDVv2PztI81SGfpfEez80GoA.jpg" width="300"/>
+      <h3 class="text-lg font-semibold mt-2">
+       Ngũ cốc curcumin
+      </h3>
+      <p class="text-gray-600 mt-1">
+       Ngũ cốc bổ dưỡng với tinh chất curcumin.
+      </p>
+     </div>
+     <div class="bg-white rounded-lg shadow-md p-4">
+      <img alt="Image of Bánh cốm curcumin, a type of rice cake made with curcumin" class="w-full h-40 object-cover rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/2nuAe0VB6eig6UuPmR4CfK2qvY0GI2cXXf0HjFV6AuT35pNQB.jpg" width="300"/>
+      <h3 class="text-lg font-semibold mt-2">
+       Bánh cốm curcumin
+      </h3>
+      <p class="text-gray-600 mt-1">
+       Bánh cốm thơm ngon với tinh chất curcumin.
+      </p>
+     </div>
+     <div class="bg-white rounded-lg shadow-md p-4">
+      <img alt="Image of Kẹo hạt mix 9 vị curcumin, a type of mixed nuts candy made with curcumin" class="w-full h-40 object-cover rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/NaIySL6iWqr9Jxlz5MhD3sUQM5xTTNFwDH23Vj93rFymn2AF.jpg" width="300"/>
+      <h3 class="text-lg font-semibold mt-2">
+       Kẹo hạt mix 9 vị curcumin
+      </h3>
+      <p class="text-gray-600 mt-1">
+       Kẹo hạt mix với 9 vị khác nhau và tinh chất curcumin.
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="certificate mt-10">
+    <h2 class="text-xl font-semibold mb-4">
+     Giấy chứng nhận
+    </h2>
+    <div class="bg-white rounded-lg shadow-md p-4">
+     <img alt="Certificate showing the certification details of the product" class="w-full h-auto object-cover rounded-lg" height="800" src="giaychungnhan_crop.jpg" width="600"/>
+     <p class="text-gray-600 mt-2">
+      Giấy chứng nhận, xác nhận chất lượng sản phẩm.
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
 </html>
